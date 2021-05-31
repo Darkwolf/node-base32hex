@@ -1,0 +1,35 @@
+{
+  "name": "@darkwolf/base32hex",
+  "version": "1.0.0",
+  "description": "Base32Hex",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "exports": {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.cjs"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-base32hex.git"
+  },
+  "keywords": [
+    "base32hex",
+    "encoder",
+    "decoder"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-base32hex/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-base32hex#readme",
+  "dependencies": {
+    "@darkwolf/primordials": "^1.2.0"
+  }
+}
